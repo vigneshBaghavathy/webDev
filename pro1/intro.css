@@ -1,0 +1,54 @@
+body{
+  /*background-color:rgb(41, 4, 82);*/
+
+  margin:0;
+}
+.toolbar{
+  background-color: rgb(254,202,215);
+
+  position: fixed;
+  height:100px;
+  width:100%;
+}
+
+
+
+/* rgb(218,160,226)- for headings
+text color:#eeeeee
+text family:
+font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Waiting for the Sunrise', cursive; */
+.div1{
+  position:relative;
+  height:40%;
+  width:100%;
+
+}
+.title{
+  position:absolute;
+  font-family: 'Shadows Into Light', cursive;
+  color:#df5e88;
+
+}
+.title1{
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin:0;
+}
+.title2{
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+
+.title1:hover{
+  font-size: 500%;
+}
+.mountain{
+  height:40%;
+  width:100%;
+}
